@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans:wght@300;400;600&family=Poppins:wght@300;400;500&family=Work+Sans:wght@700&display=swap&family=League+Spartan:wght@400;700" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <title>RocketNews</title>
 </head>
 <body>
@@ -231,13 +232,14 @@
         </div>
         <div class="input">
             <p>Insira seu E-mail:</p>
-            <input type="text" name="email" placeholder="oi@rocketseat.com">
+            <input type="text" name="email" placeholder="oi@rocketseat.com" class="input-email">
             <div class="borderg"></div>
         </div>
-        <button>
+        <button class="button-email">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
         </button>
         <a href="#">deixe-me ler primeiro<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
         <div class="whitebg"></div>
+        <script src="script.js" type="module"></script>
 </body>
 </html>
